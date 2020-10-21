@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 21, 2020, 2:36:32 PM
+    Author     : kid03
+*/
+
+AnchorPane{
+    -fx-background-color: lightcyan;
+    -fx-padding: 10;
+}
+
+Text.title {
+    -fx-font-size: 30;
+    -fx-fill: gold;
+    -fx-stroke: red;
+    -fx-stroke-width: 2;
+    -fx-font-weight: bold;
+}

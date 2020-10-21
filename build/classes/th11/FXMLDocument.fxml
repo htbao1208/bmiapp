@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="246.0" prefWidth="498.0" stylesheets="@css1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="th11.FXMLDocumentController">
+   <children>
+      <Text layoutX="169.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="Tính BMI" textAlignment="CENTER" wrappingWidth="159.6708984375" />
+      <TextField fx:id="soCao" layoutX="133.0" layoutY="74.0" prefHeight="31.0" prefWidth="272.0" />
+      <TextField fx:id="soNang" layoutX="133.0" layoutY="119.0" prefHeight="31.0" prefWidth="272.0" />
+      <Label layoutX="34.0" layoutY="79.0" text="Chiều cao:" />
+      <Label layoutX="34.0" layoutY="124.0" text="Cân nặng:" />
+      <Button layoutX="216.0" layoutY="159.0" mnemonicParsing="false" onAction="#handleTinh" text="Tính" />
+      <Text fx:id="kQ" layoutX="190.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="result" textAlignment="CENTER" wrappingWidth="101.6708984375" />
+      <Label layoutX="419.0" layoutY="79.0" text="m" />
+      <Label layoutX="419.0" layoutY="124.0" text="kg" />
+   </children>
+</AnchorPane>
