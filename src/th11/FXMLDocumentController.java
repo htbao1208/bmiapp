@@ -23,11 +23,11 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private Label label;
     
-    @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
-    }
+//    @FXML
+//    private void handleButtonAction(ActionEvent event) {
+//        System.out.println("You clicked me!");
+//        label.setText("Hello World!");
+//    }
     
     @FXML private TextField soCao;
     @FXML private TextField soNang;
