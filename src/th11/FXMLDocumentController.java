@@ -39,7 +39,8 @@ public class FXMLDocumentController implements Initializable {
         
         double result = nang/Math.pow(cao, 2);
         
-        kQ.setText(String.valueOf(result));
+        if (result > 18 && result < 50)
+            kQ.setText(String.valueOf(result));
     
     }
     
