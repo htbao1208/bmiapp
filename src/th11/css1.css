@@ -20,3 +20,7 @@ Text.title {
     -fx-stroke-width: 2;
     -fx-font-weight: bold;
 }
+
+Button {
+    -fx-background-color: white;
+}
