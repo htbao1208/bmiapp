@@ -20,8 +20,8 @@ import javafx.scene.text.Text;
  */
 public class FXMLDocumentController implements Initializable {
     
-    @FXML
-    private Label label;
+//    @FXML
+//    private Label label;
     
 //    @FXML
 //    private void handleButtonAction(ActionEvent event) {
